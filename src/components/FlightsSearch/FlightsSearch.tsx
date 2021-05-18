@@ -44,7 +44,8 @@ const FlightsSearch = () => {
     const returnFrom = encodeURIComponent(returnRange.from);
     const returnTo = encodeURIComponent(returnRange.to);
     const type = flightType === 'round-trip' ? 'return' : 'oneway';
-    const searchQuery = `${API_URL}flights?v=3&partner=skypicker&locale=en&flyFrom=${fromAirport}&to=${toAirport}&dateFrom=${dateFrom}&dateTo=${dateTo}&typeFlight=${type}&returnFrom=${returnFrom}&returnTo=${returnTo}`;
+    let searchQuery = `${API_URL}flights?v=3&partner=skypicker&locale=en&flyFrom=${fromAirport}&to=${toAirport}&dateFrom=${dateFrom}&dateTo=${dateTo}&typeFlight=${type}`;
+    if (type === 'return') searchQuery += `&returnFrom=${returnFrom}&returnTo=${returnTo}`;
 
     fetch(searchQuery)
       .then((response) => response.json())
