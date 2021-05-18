@@ -1,0 +1,24 @@
+.flight-detail {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 1em;
+}
+
+.flight-detail::before {
+  content: "\2022";
+  color: #bbb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.1em;
+}
+
+.flight-detail span {
+  color: #666;
+}
+
+.airline {
+    display:inline-block;
+    margin:0 8px;
+}
