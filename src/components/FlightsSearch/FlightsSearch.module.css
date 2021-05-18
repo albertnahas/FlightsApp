@@ -1,0 +1,23 @@
+.search-panel {
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  background: white;
+}
+.search-panel-active {
+  padding-bottom: 20px;
+  background: white;
+  margin-bottom:15px;
+}
+
+.results-panel {
+  height:100%;
+  padding-left:30px;
+  padding-right:30px;
+  background-color:rgb(245, 247, 249);
+  margin-top:20px;
+  padding-bottom:30px;
+
+}

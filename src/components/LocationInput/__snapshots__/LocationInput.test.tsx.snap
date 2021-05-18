@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationInput /> should render correctly with no props 1`] = `
+<ForwardRef(Autocomplete)
+  autoComplete={true}
+  filterOptions={[Function]}
+  filterSelectedOptions={true}
+  getOptionLabel={[Function]}
+  includeInputInList={true}
+  noOptionsText="Searching ..."
+  onChange={[Function]}
+  onInputChange={[Function]}
+  options={Array []}
+  renderInput={[Function]}
+  renderOption={[Function]}
+  size="small"
+  value={null}
+/>
+`;
+
+exports[`<LocationInput /> should render correctly with props 1`] = `
+<ForwardRef(Autocomplete)
+  autoComplete={true}
+  filterOptions={[Function]}
+  filterSelectedOptions={true}
+  getOptionLabel={[Function]}
+  includeInputInList={true}
+  noOptionsText="Searching ..."
+  onChange={[Function]}
+  onInputChange={[Function]}
+  options={Array []}
+  renderInput={[Function]}
+  renderOption={[Function]}
+  size="small"
+  value={null}
+/>
+`;

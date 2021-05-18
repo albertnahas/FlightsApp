@@ -1,0 +1,35 @@
+.flight-item {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  margin: 20px 0;
+  transition: all 200ms;
+  border-radius: 10px;
+  padding: 20px !important;
+  background: white;
+}
+
+.flight-item:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.price {
+  color: #666;
+  font-weight: lighter;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-h {
+  padding-top: 10px !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .details-container {
+    padding-top: 10px !important;
+  }
+}
