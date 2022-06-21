@@ -1,10 +1,10 @@
-## Flights Search App
+## Flights Finder App
 
 Flights search web app using Kiwi APIs
 
 ## Live Demo
 
-https://dazzling-jepsen-4740e8.netlify.app/
+https://flightsfinder.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
