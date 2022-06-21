@@ -1,5 +1,7 @@
 ## Flights Search App
 
+Flights search web app using Kiwi APIs
+
 ## Live Demo
 
 https://dazzling-jepsen-4740e8.netlify.app/
